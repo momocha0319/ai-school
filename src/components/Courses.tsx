@@ -4,7 +4,7 @@ const tracks = [
   {
     id: 'literacy',
     heading: '守る・考える',
-    sub: 'ITリテラシー基礎',
+    sub: '座学コース — スマホ・タブレット可',
     courses: [
       {
         step: '01',
@@ -35,7 +35,7 @@ const tracks = [
   {
     id: 'practice',
     heading: '使う・創る',
-    sub: 'AI実践活用',
+    sub: '実践コース — PC必須（RAM 4GB以上・Chrome/Edge最新版）',
     courses: [
       {
         step: '05',

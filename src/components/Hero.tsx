@@ -14,19 +14,19 @@ export default function Hero() {
 
       {/* Main content */}
       <div className="container hero-content">
-        <p className="eyebrow hero-eyebrow">小学1年生〜中学3年生対象 · AI &amp; ITリテラシースクール</p>
+        <p className="eyebrow hero-eyebrow">小学1年生〜中学3年生対象 · 完全オンライン（Zoom）· AI &amp; ITリテラシースクール</p>
         <h1 className="h-display hero-title">
           AIに使われる子ではなく、<em>AIを使いこなす子</em>に。
         </h1>
-        <p className="hero-desc">生成AI・情報リテラシー・バイブコーディングまで。テクノロジーを正しく・賢く・楽しく学ぶ8つのカリキュラムで、お子さんの「問う力」を育てます。</p>
+        <p className="hero-desc">生成AI・情報リテラシー・バイブコーディングまで。Zoomグループレッスンで全国どこからでも受講できる8つのカリキュラムで、お子さんの「問う力」を育てます。</p>
         <div className="hero-tags">
-          <span>フェイク情報への対処</span>
+          <span>完全オンライン・全国対応</span>
           <span>LLM・AI活用</span>
           <span>バイブコーディング</span>
         </div>
         <div className="hero-actions">
-          <a href="#courses" className="btn btn-amber">コースを見る →</a>
-          <a href="#about" className="btn btn-outline-white">スクールについて</a>
+          <a href="#contact" className="btn btn-amber">資料を請求する →</a>
+          <a href="#courses" className="btn btn-outline-white">コースを見る</a>
         </div>
       </div>
 
