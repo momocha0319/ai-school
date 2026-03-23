@@ -1,0 +1,108 @@
+.about-section {
+  background: var(--cream);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 5fr 6fr;
+  gap: 7rem;
+  align-items: start;
+}
+
+/* ── Photo ────────────────────────────────────────── */
+.about-photo-wrap {
+  position: sticky;
+  top: 7rem;
+}
+
+.about-photo {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 2px;
+  box-shadow: var(--shadow-lg);
+}
+
+/* ── Text ─────────────────────────────────────────── */
+.about-content {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-heading {
+  color: var(--ink);
+}
+
+.about-body {
+  font-size: 1rem;
+  color: var(--muted);
+  line-height: 1.9;
+}
+
+.about-body strong {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+/* Pull quote — no box, just elegant serif italic */
+.about-pull {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: var(--body);
+  padding-left: 1.5rem;
+  border-left: 2px solid var(--amber);
+  font-style: italic;
+}
+
+.about-pull em {
+  font-style: normal;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+/* Numbered topics — horizontal row */
+.about-topics {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  border-top: 1px solid var(--sand);
+}
+
+.about-topic {
+  display: flex;
+  align-items: baseline;
+  gap: 1.25rem;
+  padding: 0.875rem 0;
+  border-bottom: 1px solid var(--sand);
+  font-size: 0.9rem;
+  color: var(--body);
+}
+
+.topic-label {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--ghost);
+  letter-spacing: 0.1em;
+  flex-shrink: 0;
+  width: 1.5rem;
+}
+
+/* ── Responsive ───────────────────────────────────── */
+@media (max-width: 960px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 3.5rem;
+  }
+
+  .about-photo-wrap {
+    position: static;
+  }
+
+  .about-photo {
+    aspect-ratio: 3 / 2;
+  }
+}

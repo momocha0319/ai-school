@@ -1,0 +1,55 @@
+.testimonials-section {
+  background: var(--navy);
+}
+
+.testimonials-heading {
+  color: #fff;
+  margin-bottom: 3.5rem;
+}
+
+/* ── Grid: 3 columns ─────────────────────────────── */
+.voices-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+}
+
+.voice-item {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.voice-quote p {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 0.975rem;
+  line-height: 1.9;
+  color: rgba(255, 255, 255, 0.85);
+  font-style: italic;
+}
+
+.voice-name {
+  font-size: 0.78rem;
+  color: rgba(255, 255, 255, 0.45);
+  letter-spacing: 0.04em;
+}
+
+/* ── Responsive ───────────────────────────────────── */
+@media (max-width: 860px) {
+  .voices-grid {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .voice-item {
+    padding: 2rem 0;
+    border-top: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  .voice-item:first-child {
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+  }
+}
