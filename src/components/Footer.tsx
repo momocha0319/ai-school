@@ -19,7 +19,7 @@ export default function Footer() {
               <li><a href="#">Topページ</a></li>
               <li><a href="#about">スクールについて</a></li>
               <li><a href="#courses">カリキュラム</a></li>
-              <li><a href="#contact">お申し込み</a></li>
+              <li><a href="#contact">資料請求・無料体験</a></li>
             </ul>
           </div>
 

@@ -97,8 +97,11 @@ export default function Courses() {
         </div>
 
         <div className="courses-cta">
-          <p>どのコースから始めるか迷ったら、まず無料体験へ。お子さんの興味に合わせてご提案します。</p>
-          <a href="#contact" className="btn btn-navy">無料体験レッスンを申し込む →</a>
+          <p>料金・スケジュール・定員など詳細は資料にまとめています。コース選びに迷ったらお気軽にご相談ください。</p>
+          <div className="courses-cta-btns">
+            <a href="#contact" className="btn btn-navy">資料を請求する（無料） →</a>
+            <a href="#contact" className="courses-cta-sub">無料体験レッスンを予約する</a>
+          </div>
         </div>
       </div>
     </section>

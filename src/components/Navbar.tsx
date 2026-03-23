@@ -25,7 +25,7 @@ export default function Navbar() {
           <a href="#about" onClick={() => setMenuOpen(false)}>スクールについて</a>
           <a href="#courses" onClick={() => setMenuOpen(false)}>カリキュラム</a>
           <a href="#contact" className="nav-cta btn btn-amber" onClick={() => setMenuOpen(false)}>
-            無料体験を申し込む
+            資料を請求する
           </a>
         </nav>
 
